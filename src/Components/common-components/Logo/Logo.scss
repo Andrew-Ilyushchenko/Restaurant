@@ -1,0 +1,23 @@
+$primary-color: #6C5FBC;
+
+.logo-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-img-wrap{
+    width: 61.88px;
+    height: 57px;
+    background-image: url('./Logo.png');
+    margin-right: 11px;
+    background-color: $primary-color;
+    background-repeat: no-repeat;
+}
+.logo-text{
+    color: $primary-color;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28.5245px;
+    line-height: 130%;
+}

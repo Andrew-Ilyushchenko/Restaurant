@@ -1,0 +1,73 @@
+%contact-size{
+    width: 21.34px;
+    height: 21.42px;
+    background-repeat: no-repeat;
+}
+.footer{
+    background-color: #EAEAEA;
+    padding-top: 106px;
+    padding-bottom: 71px;
+}
+.footer-wrap{
+
+}
+.upper-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 29px;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 456px;
+}
+.footer-link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.8286px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #999999;
+}
+.footer-contact-wrap{
+    margin-top: 57px;
+
+}
+.footer-text{
+
+}
+.footer-line{
+    opacity: 0.25;
+    border: 1px solid #818181;
+}
+.footer-contact-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 234px;
+}
+.footer-inst{
+    @extend %contact-size;
+    background-image: url('./inst.png');
+}
+.footer-linkedin{
+    @extend %contact-size;
+    background-image: url('./link.png');
+}
+.footer-facebook{
+    @extend %contact-size;
+    background-image: url('./face.png');
+}
+.footer-twitter{
+    @extend %contact-size;
+    background-image: url('./twitter.png');
+}

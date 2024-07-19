@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;   
+}
+.container{
+    margin: auto;
+    max-width: 1440px;
+}
+.button{
+    background: #6C5FBC;
+    border-radius: 11.2531px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.752px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F7F8FA;
+}
+.navigate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
