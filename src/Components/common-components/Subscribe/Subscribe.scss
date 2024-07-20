@@ -1,8 +1,9 @@
 .subscribe{
+    position: relative;
     background-image: url(./background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #6C5FBC;
+    background-color: #5C4EAE;
     opacity: 0.8;
     border-radius: 30px;
     display: flex;
@@ -48,8 +49,6 @@
     margin-left: 62.25px
 }
 .sub-img-wrap::after{
-    // margin-top: 64px;
-    // margin-right: 72px;
     content: '';
     display: block;
     width: 274px;
@@ -57,10 +56,6 @@
     position: absolute;
     left: 70%;
     margin-left: 30px;
-    top: 159px;
+    top: 64px;
     background-image: url(./sub.png);
-    
 }
-// .sub-img{   
-//     max-width: 274.06px;
-// }

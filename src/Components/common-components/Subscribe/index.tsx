@@ -7,7 +7,7 @@ const Subscribe = () => {
 
     return(
         <>
-            <div className="subscribe">
+            <section className="subscribe">
                     <div className="sub-left">
                         <div className="sub-text">GET 50%</div>
                         <div className="sub-input-wrap">
@@ -17,7 +17,7 @@ const Subscribe = () => {
                     <div className="sub-img-wrap">
                         {/* <img src={SubImg} alt="#" className="sub-img"/> */}
                     </div>
-            </div>
+            </section>
         </>
     )
 }

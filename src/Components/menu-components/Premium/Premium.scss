@@ -1,0 +1,101 @@
+.premium{
+    margin-top: 103.5px;
+}
+.premium-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.premium-left{
+    margin-left: 111px;
+    position: relative;
+}
+.premium-left::after{  
+    content: '';
+    display: block;
+    position: absolute;
+    top: -3%;
+    right: -20%;
+    width: 52.46px;
+    height: 61.74px;
+    background-image: url(./Illustration.png);
+    background-repeat: no-repeat;
+}
+.premium-img{
+    width: 100%;
+    height: 100%;
+    max-width: 304px;
+    max-height: 609px;
+}
+.premium-right{
+    position: relative;
+}
+.premium-right::after{
+    content: '';
+    position: absolute;
+    display: block;
+    top: 99%;
+    left: 17%;
+    width: 87.01px;
+    height: 154.49px;
+    background-image: url(./Vector.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.premium-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50.923px;
+    line-height: 58px;
+    text-transform: capitalize;
+    color: #18181B;
+    margin-bottom: 63px;
+}
+.premium-list{
+    margin-bottom: 61px;
+}
+.premium-list-item{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.335px;
+    line-height: 31px;
+    color: #676767;
+    padding-bottom: 28px;
+    padding-left: 33px;
+    display: flex;
+    align-items: center;
+}
+.point-center{
+    font-size: 60px;
+    align-items: center;
+}
+.premium-list-item:last-child{
+    padding-bottom: 0px;
+}
+.premium-btn{
+    padding: 20px 68px 20px 26px;
+    position: relative;
+}
+.premium-btn::after{
+    content: '';
+    background-image: url(./arrow-right.png);
+    display: block;
+    width: 27.09px;
+    height: 27.09px;
+    top: 27%;
+    left: 75%;
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.btn a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.0619px;
+    line-height: 23px;
+}

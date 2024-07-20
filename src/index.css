@@ -21,8 +21,22 @@
     text-transform: uppercase;
     color: #F7F8FA;
 }
+.btn{
+    background: #6C5FBC;
+    border-radius: 14.6753px;
+}
+.btn a{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
 .navigate{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.purple-text{
+    color: #5C4EAE;
 }
