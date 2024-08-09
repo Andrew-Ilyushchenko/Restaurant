@@ -15,7 +15,6 @@ const Subscribe = () => {
                         </div>
                     </div>
                     <div className="sub-img-wrap">
-                        {/* <img src={SubImg} alt="#" className="sub-img"/> */}
                     </div>
             </section>
         </>

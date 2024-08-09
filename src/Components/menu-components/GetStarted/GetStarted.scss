@@ -1,0 +1,117 @@
+%img-default{
+    height: 100%;
+    width: 100%;
+}
+.get-started{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 85px;
+    margin-top: 49px;
+}
+.get-text-wrap{
+    max-width: 567px;
+}
+.get-preview-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 120%;
+    letter-spacing: 2px;
+    color: rgba(32, 31, 31, 0.2);
+}
+.main-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 120%;
+    letter-spacing: -3px;
+    color: #201F1F;
+    margin-top: 18px;
+    margin-bottom: 16px;
+}
+.description-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #676767;
+    opacity: 0.7;
+    max-width: 499px;
+}
+.purple-text-white{
+    color: #6155AE;
+}
+.button-wrap{
+    margin-top: 53px;
+    margin-bottom: 33px;
+}
+.get-btn{
+    padding: 18px 31px 17px 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.2706px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #6C5FBC;
+    border-radius: 12.4115px;
+}
+.get-btn-white{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.2706px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #6C5FBC;
+    border: 1.5px solid #6C5FBC;
+    border-radius: 12.4115px;
+    padding: 18px 28px 17px 27px;
+    background-color: #F9F9F9;
+    margin-left: 18px;
+}
+.review{
+    display: flex;
+    align-items: center;
+    
+}
+.get-icon{
+
+}
+.get-star{
+    display: flex;
+    align-items: flex-end;
+    margin: 0px 9px 0px 20px;
+    height: 100%;
+    width: 100%;
+    max-width: 97.79px;
+    padding-top: 6px;
+}
+.review-text{
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #334155;
+    opacity: 0.7;
+    padding-top: 6px;
+}
+.get-food-wrap{
+    margin-left: 72px;
+}
+.get-img-wrap{
+
+}
+.get-img{
+
+}

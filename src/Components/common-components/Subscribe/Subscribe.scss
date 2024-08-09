@@ -9,11 +9,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 182px;
     margin-bottom: 206px;
+    padding-top: 35px;
+    padding-bottom: 61px;
 }
 .sub-left{
-    padding-left: 66px  ;
+    padding-left: 66px;
 }
 .sub-text{
     font-family: 'Poppins';
@@ -22,14 +23,12 @@
     font-size: 70px;
     line-height: 105px;
     color: #FFFFFF;
-    margin-top: 35px;
 }
 .sub-input-wrap{
     max-width: 420px;
     background: #FFFFFF;
     box-shadow: 0px 7.25333px 45.3333px rgba(0, 0, 0, 0.1);
     border-radius: 14.2342px;
-    margin-bottom: 61px;
 }
 .sub-input{
     font-family: 'Poppins';
@@ -58,4 +57,105 @@
     margin-left: 30px;
     top: 64px;
     background-image: url(./sub.png);
+    background-size: contain;
+}
+@media (max-width: 1278px) {
+    .subscribe{
+        margin-bottom: 153px;
+        padding-top: 26.31px;
+        padding-bottom: 43.4px;
+        border-radius: 21px;
+    }
+    .sub-left{
+        padding-left: 47px;
+    }
+    .sub-text{
+        font-size: 49.7778px;
+        line-height: 75px;
+    }
+    .sub-input-wrap{
+    }
+    .sub-input{
+        font-size: 11.5681px;
+        line-height: 17px;
+        padding: 15.5px 0px 15.5px 15.5px;
+    }
+    .sub-btn{
+        padding: 11px 17px;
+        margin-left: 62.25px;
+        font-size: 10.4px;
+        line-height: 16px;
+    }
+    .sub-img-wrap::after{
+        width: 194.89px;
+        height: 196.28px;
+        top: 85px;
+    }
+}
+@media (max-width: 952px) {
+    .sub-img-wrap::after{
+        left: 65%;
+    }
+}
+@media (max-width: 850px) {
+    .sub-img-wrap::after{
+        left: 60%;
+    }
+}
+@media (max-width: 750px) {
+    .subscribe{
+        padding-top: 35px;
+        padding-bottom: 95px;
+        border-radius: 21px;
+        margin-bottom: 198px;
+    }
+    .sub-text{
+        text-align: center;
+    }
+    .sub-left{
+        margin: auto;
+        padding-left: 0px;
+    }
+    .sub-img-wrap::after{
+        left: 60%;
+    }
+    .sub-img-wrap::after{
+        width: 170px;
+        height: 170px;
+        top: 180px;
+        left: 30%;
+    }
+}
+@media (max-width: 610px) {
+    .sub-img-wrap::after{
+        left: 25%;
+    }
+}
+@media (max-width: 545px) {
+    .sub-img-wrap::after{
+        left: 21%;
+    }
+}
+@media (max-width: 500px) {
+    .sub-img-wrap::after{
+        left: 18%;
+    }
+    .sub-input-wrap{
+        max-width: 260px;
+    }
+}
+@media (max-width: 460px) {
+    .sub-img-wrap::after{
+        left: 15%;
+    }
+}
+@media (max-width: 420px) {
+    .sub-img-wrap::after{
+        left: 12%;
+    }
+}
+@media (max-width: 375px) {
+    .sub-img-wrap::after{
+        left: 10%;
+    }
 }

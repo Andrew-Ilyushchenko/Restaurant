@@ -2,11 +2,13 @@
     width: 21.34px;
     height: 21.42px;
     background-repeat: no-repeat;
+    background-size: contain;
 }
+
 .footer{
     background-color: #EAEAEA;
     padding-top: 106px;
-    padding-bottom: 71px;
+    padding-bottom: 81px;
 }
 .footer-wrap{
 
@@ -69,4 +71,71 @@
 .footer-twitter{
     @extend %contact-size;
     background-image: url('./twitter.png');
+}
+
+@media (max-width: 1024px) {
+    .footer{
+        padding-top: 69px;
+        padding-bottom: 57px;
+    }
+    .footer-link{
+        font-size: 12.6781px;
+        line-height: 19px;
+    }
+    .footer-text{
+        font-size: 12.0889px;
+        line-height: 18px;
+    }
+    .footer-inst,
+    .footer-linkedin,
+    .footer-facebook,
+    .footer-twitter{
+        width: 15px;
+        height: 15px;       
+    }
+    .footer-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 341px;
+    }
+}
+@media (max-width: 594px) {
+    .footer{
+        padding-top: 55px;
+        padding-bottom: 36px;
+    }
+    .footer-nav{
+        margin-top: 49px;
+    }
+    .upper-wrap{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-link{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .footer-text{
+        font-size: 13.5414px;
+        line-height: 20px;
+    }
+    .footer-inst,
+    .footer-linkedin,
+    .footer-facebook,
+    .footer-twitter{
+        width: 16px;
+        height: 16px;   
+    }
+    .footer-contact-wrap{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-text{
+        order: 2;
+        margin-top: 35px;
+    }
+    .footer-contact{
+        order: 1;
+    }
 }

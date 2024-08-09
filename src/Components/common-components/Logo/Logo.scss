@@ -12,6 +12,7 @@ $primary-color: #6C5FBC;
     margin-right: 11px;
     background-color: $primary-color;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 .logo-text{
     color: $primary-color;
@@ -20,4 +21,26 @@ $primary-color: #6C5FBC;
     font-weight: 600;
     font-size: 28.5245px;
     line-height: 130%;
+}
+@media (max-width: 1024px) {
+    .logo-img-wrap{
+        width: 44px;
+        height: 40px;
+        margin-right: 10.5px;
+    }
+    .logo-text{
+        font-size: 20.2841px;
+        line-height: 130%;
+    }
+}
+@media (max-width: 375px) {
+    .logo-img-wrap{
+        width: 40px;
+        height: 37px;
+        margin-right: 9.7px;
+    }
+    .logo-text{
+        font-size: 18.7385px;
+        line-height: 130%;
+    }
 }

@@ -8,6 +8,7 @@
 .container{
     margin: auto;
     max-width: 1440px;
+    padding: 0px 95px;
 }
 .button{
     background: #6C5FBC;
@@ -39,4 +40,36 @@
 }
 .purple-text{
     color: #5C4EAE;
+}
+.main-line{
+    margin: auto;
+    border: 1px solid #CBCBCB;
+
+}
+
+@media (max-width: 1024px) {
+    .container{
+        padding: 0px 68px;
+    }
+}
+@media (max-width: 1278px) {
+    .button{
+        padding: 11px 17px;
+        margin-left: 62.25px;
+        font-size: 10.4px;
+        line-height: 16px;
+    }
+}
+@media (max-width: 500px) {
+    .button{
+        padding: 10px 15.58px 10px 16.51px;
+        margin-left: 2.25px;
+        font-size: 9.59418px;
+        line-height: 14px;
+    }
+}
+@media (max-width: 450px) {
+    .container{
+        padding: 0px 30px;
+    }
 }

@@ -13,12 +13,12 @@ const Premium = () => {
 
                     <div className="premium-right">
                         <h2 className="premium-text">
-                        Premium <span className="purple-text">Quality</span> For Your Health
+                        Premium <span className="purple-text">Quality</span><br></br> For Your Health
                         </h2>
                         <ol className="premium-list" type="A">
                             <li className="premium-list-item">
                                 <span className="point-center">·  </span>
-                                Premium quality food is made with ingredients that 
+                                Premium quality food is made with ingredients that
                                 are packed with essential vitamins, minerals.
                             </li>
                             <li className="premium-list-item">
